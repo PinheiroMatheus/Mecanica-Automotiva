@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+    header div {
+        max-width: 100px;
+    }
+    section div img {
+        width: 110%;
+    }
+    nav div#links {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        gap: 10px;
+        text-align: center;
+    }
+    .button {
+        padding: 10px 30px;
+    }
+    article div#sobreNos div#sobre div#sobreContent {
+        grid-template-columns: 100%;
+    }
+    article div#sobreNos div#sobre div#sobreContent div#sobreImg{
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 862px) {
+
+}

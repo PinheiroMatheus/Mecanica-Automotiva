@@ -68,20 +68,24 @@ article {
 }
 
 /* ARTICLE SOBRE */
-article div#sobre div#title {
+article div#sobreNos div#title {
     display: flex;
     color: white;
     font-weight: bold;
 }
 
-article div#sobre div#title div{
+article div#sobreNos div#title div{
     flex: auto;
     align-self: flex-end;
     margin-left: 20px;
     padding-bottom: 10px;
 }
 
-article div#sobre div#sobreContent {
+article div#sobreNos div#sobre {
+    display: flex;
+}
+
+article div#sobreNos div#sobre div#sobreContent {
     display: grid;
     padding: 30px;
     align-items: center;
