@@ -14,10 +14,6 @@
         gap: 10px;
         text-align: center;
     }
-    /* SECTION */
-    section div img {
-        width: 110%;
-    }
     /* SOBRE NOS */
     article div#sobreNos div#sobre div#sobreContent {
         grid-template-columns: 100%;
