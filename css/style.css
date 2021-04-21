@@ -8,7 +8,9 @@ body {
     padding: 0;
 }
 
+
 /* HEADER */
+
 header {
     display: flex;
     justify-content: space-around;
@@ -16,17 +18,19 @@ header {
     padding: 20px 0;
 }
 
-header div{
+header div {
     max-width: 150px;
 }
 
-header div img{
+header div img {
     width: 100%;
     height: auto;
     border-radius: 50%;
 }
 
+
 /* NAV */
+
 nav {
     padding: 0 30px;
 }
@@ -47,7 +51,9 @@ nav div#links a {
     font-weight: bold;
 }
 
+
 /* SECTION */
+
 section {
     margin-top: 30px;
 }
@@ -62,19 +68,23 @@ section div img {
     height: auto;
 }
 
+
 /* ARTICLE */
+
 article {
     padding: 30px;
 }
 
+
 /* ARTICLE SOBRE */
+
 article div#sobreNos div#title {
     display: flex;
     color: white;
     font-weight: bold;
 }
 
-article div#sobreNos div#title div{
+article div#sobreNos div#title div {
     flex: auto;
     align-self: flex-end;
     margin-left: 20px;
@@ -83,6 +93,7 @@ article div#sobreNos div#title div{
 
 article div#sobreNos div#sobre {
     display: flex;
+    margin: 20px 0;
 }
 
 article div#sobreNos div#sobre div#sobreContent {
@@ -109,18 +120,20 @@ article div#sobre div#sobreContent div#sobreText {
 }
 
 article div#sobre div#sobreContent div#sobreText a {
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
 }
 
+
 /* ARTICLE MECANICA */
+
 article div#mecanica div#title {
     display: flex;
     color: white;
     font-weight: bold;
 }
 
-article div#mecanica div#title div{
+article div#mecanica div#title div {
     flex: auto;
     align-self: flex-end;
     margin-right: 20px;
@@ -132,39 +145,42 @@ article div#mecanica div#servicos {
     grid-template-columns: 25% 25% 25%;
     justify-content: space-evenly;
     color: white;
-    margin: 60px 0;
+    margin: 20px 0 40px 0;
 }
 
-article div#mecanica div#servicos ul div#ulTitle{
+article div#mecanica div#servicos ul div#ulTitle {
     display: flex;
     max-width: 30px;
     align-items: center;
     margin: 20px 0;
 }
 
-article div#mecanica div#servicos ul div#ulTitle img{
+article div#mecanica div#servicos ul div#ulTitle img {
     width: 100%;
     height: auto;
     margin-right: 10px;
     color: yellow;
 }
 
-article div#mecanica div#servicos ul li{
+article div#mecanica div#servicos ul li {
     color: rgb(150, 150, 150);
 }
 
-article div#mecanica div#button{
+article div#mecanica div#button {
     text-align: center;
+    margin-bottom: 60px;
 }
 
+
 /* ARTICLE FUNILARIA */
+
 article div#funilaria div#title {
     display: flex;
     color: white;
     font-weight: bold;
 }
 
-article div#funilaria div#title div{
+article div#funilaria div#title div {
     flex: auto;
     align-self: flex-end;
     margin-left: 20px;
@@ -174,10 +190,11 @@ article div#funilaria div#title div{
 article div#funilaria div#contFunilaria {
     display: grid;
     grid-template-columns: 50% 40%;
-    padding: 60px;
+    padding: 0 60px;
     justify-content: space-around;
     align-items: center;
     color: white;
+    margin: 50px 0 30px 0;
 }
 
 article div#funilaria div#contFunilaria div#imgFunilaria img {
@@ -195,14 +212,16 @@ article div#funilaria div#contFunilaria div#textFunilaria a {
     text-align: center;
 }
 
+
 /* ARTICLE CONTATO */
+
 article div#contato div#title {
     display: flex;
     color: white;
     font-weight: bold;
 }
 
-article div#contato div#title div{
+article div#contato div#title div {
     flex: auto;
     align-self: flex-end;
     margin-right: 20px;
@@ -221,32 +240,34 @@ article div#contato div#listaContatos {
     margin: 10px 0 60px 0;
 }
 
-article div#contato div#listaContatos ul li{
+article div#contato div#listaContatos ul li {
     list-style: none;
     color: rgb(167, 167, 167);
     margin-top: 10px;
 }
 
-article div#contato div#listaContatos ul div#ulTitle{
+article div#contato div#listaContatos ul div#ulTitle {
     display: flex;
     max-height: 30px;
     align-items: center;
     margin-bottom: 20px;
 }
 
-article div#contato div#listaContatos ul div#ulTitle img{
+article div#contato div#listaContatos ul div#ulTitle img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
 
-article div#contato div#listaContatos ul div#midias img{
+article div#contato div#listaContatos ul div#midias img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
+
 
 /* FOOTER */
+
 footer {
     padding: 60px 0;
 }
@@ -264,10 +285,8 @@ footer div#copy span {
     text-align: end;
 }
 
-footer div#footerLogo img{
+footer div#footerLogo img {
     max-width: 150px;
     border-radius: 50%;
     margin: -30px;
 }
-
-

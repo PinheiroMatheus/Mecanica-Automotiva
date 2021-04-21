@@ -19,27 +19,24 @@
         grid-template-columns: 100%;
         padding: 40px 0;
     }
-    article div#sobreNos div#sobre div#sobreContent div#sobreImg{
+    article div#sobreNos div#sobre div#sobreContent div#sobreImg {
         margin: 0 0 20px 0;
     }
     /* MECANICA */
-    article div#mecanica {
-        padding: 40px 0;
-    }
     article div#mecanica div#servicos {
         grid-template-columns: 50% 50%;
         justify-content: space-evenly;
         color: white;
         margin: 0;
-        padding: 0 0 30px 0;
+        padding: 30px 0;
     }
-    article div#mecanica div#servicos ul div#ulTitle{
+    article div#mecanica div#servicos ul div#ulTitle {
         max-width: 20px;
         margin: 0;
         padding: 0;
         font-size: 13px;
     }
-    article div#mecanica div#servicos ul{
+    article div#mecanica div#servicos ul {
         margin: 10px 20px;
         padding: 0;
     }
@@ -59,10 +56,10 @@
         grid-template-columns: 100%;
         color: white;
     }
-    article div#contato div#listaContatos ul{
+    article div#contato div#listaContatos ul {
         margin-bottom: 40px;
     }
-    article div#contato div#listaContatos ul div#ulTitle{
+    article div#contato div#listaContatos ul div#ulTitle {
         max-height: 30px;
         align-items: center;
         margin: 0;
@@ -76,6 +73,20 @@
     }
 }
 
-@media screen and (max-width: 862px) {
-
+@media screen and (max-width: 1000px) {
+    article div#sobreNos div#sobre div#sobreContent {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-items: center;
+        margin: 20px 0;
+    }
+    article div#sobreNos div#sobre div#sobreContent div#sobreImg {
+        margin: 0 0 50px 0;
+    }
+    article div#funilaria div#contFunilaria {
+        grid-template-columns: 100%;
+    }
+    article div#funilaria div#contFunilaria div#imgFunilaria img {
+        margin-bottom: 50px;
+    }
 }
