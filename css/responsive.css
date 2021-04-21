@@ -1,24 +1,82 @@
 @media screen and (max-width: 480px) {
+    /* GLOBAL */
+    .button {
+        padding: 10px 30px;
+    }
+    /* HEADER */
     header div {
         max-width: 100px;
     }
-    section div img {
-        width: 110%;
-    }
+    /* NAV */
     nav div#links {
         display: grid;
         grid-template-columns: 40% 40%;
         gap: 10px;
         text-align: center;
     }
-    .button {
-        padding: 10px 30px;
+    /* SECTION */
+    section div img {
+        width: 110%;
     }
+    /* SOBRE NOS */
     article div#sobreNos div#sobre div#sobreContent {
         grid-template-columns: 100%;
+        padding: 40px 0;
     }
     article div#sobreNos div#sobre div#sobreContent div#sobreImg{
         margin: 0 0 20px 0;
+    }
+    /* MECANICA */
+    article div#mecanica {
+        padding: 40px 0;
+    }
+    article div#mecanica div#servicos {
+        grid-template-columns: 50% 50%;
+        justify-content: space-evenly;
+        color: white;
+        margin: 0;
+        padding: 0 0 30px 0;
+    }
+    article div#mecanica div#servicos ul div#ulTitle{
+        max-width: 20px;
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+    }
+    article div#mecanica div#servicos ul{
+        margin: 10px 20px;
+        padding: 0;
+    }
+    /* FUNILARIA */
+    article div#funilaria div#contFunilaria {
+        grid-template-columns: 100%;
+        padding: 40px 0;
+    }
+    article div#funilaria div#contFunilaria div#imgFunilaria {
+        margin-bottom: 30px;
+    }
+    /* CONTATO */
+    article div#contato div#maps {
+        padding: 40px 0 30px 0;
+    }
+    article div#contato div#listaContatos {
+        grid-template-columns: 100%;
+        color: white;
+    }
+    article div#contato div#listaContatos ul{
+        margin-bottom: 40px;
+    }
+    article div#contato div#listaContatos ul div#ulTitle{
+        max-height: 30px;
+        align-items: center;
+        margin: 0;
+    }
+    /* FOOTER */
+    footer div#copy {
+        margin-bottom: 50px;
+    }
+    footer div#copy span {
+        font-size: 12px;
     }
 }
 

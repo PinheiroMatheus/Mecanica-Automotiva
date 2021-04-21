@@ -137,9 +137,9 @@ article div#mecanica div#servicos {
 
 article div#mecanica div#servicos ul div#ulTitle{
     display: flex;
-    max-width: 40px;
-    max-height: 30px;
+    max-width: 30px;
     align-items: center;
+    margin: 20px 0;
 }
 
 article div#mecanica div#servicos ul div#ulTitle img{
@@ -229,7 +229,6 @@ article div#contato div#listaContatos ul li{
 
 article div#contato div#listaContatos ul div#ulTitle{
     display: flex;
-    max-width: 40px;
     max-height: 30px;
     align-items: center;
     margin-bottom: 20px;
