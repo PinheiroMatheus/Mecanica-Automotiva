@@ -1,7 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-
 body {
     background-color: rgb(20, 20, 20);
     margin: 0;
@@ -10,18 +9,15 @@ body {
 
 
 /* HEADER */
-
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
 }
-
 header div {
     max-width: 150px;
 }
-
 header div img {
     width: 100%;
     height: auto;
@@ -30,21 +26,17 @@ header div img {
 
 
 /* NAV */
-
 nav {
     padding: 0 30px;
 }
-
 hr {
     background-color: gray;
 }
-
 nav div#links {
     display: flex;
     justify-content: space-evenly;
     padding: 10px 0;
 }
-
 nav div#links a {
     text-decoration: none;
     color: white;
@@ -53,16 +45,13 @@ nav div#links a {
 
 
 /* SECTION */
-
 section {
     margin-top: 30px;
 }
-
 section div {
     width: 100%;
     height: auto;
 }
-
 section div img {
     width: 100%;
     height: auto;
@@ -70,7 +59,6 @@ section div img {
 
 
 /* ARTICLE */
-
 article {
     padding: 30px;
 }
@@ -83,19 +71,16 @@ article div#sobreNos div#title {
     color: white;
     font-weight: bold;
 }
-
 article div#sobreNos div#title div {
     flex: auto;
     align-self: flex-end;
     margin-left: 20px;
     padding-bottom: 10px;
 }
-
 article div#sobreNos div#sobre {
     display: flex;
     margin: 20px 0;
 }
-
 article div#sobreNos div#sobre div#sobreContent {
     display: grid;
     padding: 30px;
@@ -103,22 +88,18 @@ article div#sobreNos div#sobre div#sobreContent {
     grid-template-columns: 30% 70%;
     color: white;
 }
-
 article div#sobre div#sobreContent div#sobreImg {
     max-width: 400px;
     margin-right: 100px;
 }
-
 article div#sobre div#sobreContent div#sobreImg img {
     border-radius: 15px;
     width: 100%;
     height: auto;
 }
-
 article div#sobre div#sobreContent div#sobreText {
     display: grid;
 }
-
 article div#sobre div#sobreContent div#sobreText a {
     margin-top: 60px;
     text-align: center;
@@ -126,20 +107,17 @@ article div#sobre div#sobreContent div#sobreText a {
 
 
 /* ARTICLE MECANICA */
-
 article div#mecanica div#title {
     display: flex;
     color: white;
     font-weight: bold;
 }
-
 article div#mecanica div#title div {
     flex: auto;
     align-self: flex-end;
     margin-right: 20px;
     padding-bottom: 10px;
 }
-
 article div#mecanica div#servicos {
     display: grid;
     grid-template-columns: 25% 25% 25%;
@@ -147,25 +125,21 @@ article div#mecanica div#servicos {
     color: white;
     margin: 20px 0 40px 0;
 }
-
 article div#mecanica div#servicos ul div#ulTitle {
     display: flex;
     max-width: 30px;
     align-items: center;
     margin: 20px 0;
 }
-
 article div#mecanica div#servicos ul div#ulTitle img {
     width: 100%;
     height: auto;
     margin-right: 10px;
     color: yellow;
 }
-
 article div#mecanica div#servicos ul li {
     color: rgb(150, 150, 150);
 }
-
 article div#mecanica div#button {
     text-align: center;
     margin-bottom: 60px;
@@ -173,20 +147,17 @@ article div#mecanica div#button {
 
 
 /* ARTICLE FUNILARIA */
-
 article div#funilaria div#title {
     display: flex;
     color: white;
     font-weight: bold;
 }
-
 article div#funilaria div#title div {
     flex: auto;
     align-self: flex-end;
     margin-left: 20px;
     padding-bottom: 10px;
 }
-
 article div#funilaria div#contFunilaria {
     display: grid;
     grid-template-columns: 50% 40%;
@@ -196,17 +167,14 @@ article div#funilaria div#contFunilaria {
     color: white;
     margin: 50px 0 30px 0;
 }
-
 article div#funilaria div#contFunilaria div#imgFunilaria img {
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
-
 article div#funilaria div#contFunilaria div#textFunilaria {
     display: grid;
 }
-
 article div#funilaria div#contFunilaria div#textFunilaria a {
     margin-top: 30px;
     text-align: center;
@@ -214,24 +182,20 @@ article div#funilaria div#contFunilaria div#textFunilaria a {
 
 
 /* ARTICLE CONTATO */
-
 article div#contato div#title {
     display: flex;
     color: white;
     font-weight: bold;
 }
-
 article div#contato div#title div {
     flex: auto;
     align-self: flex-end;
     margin-right: 20px;
     padding-bottom: 10px;
 }
-
 article div#contato div#maps {
     padding: 60px;
 }
-
 article div#contato div#listaContatos {
     display: grid;
     grid-template-columns: 20% 20% 20%;
@@ -239,26 +203,22 @@ article div#contato div#listaContatos {
     color: white;
     margin: 10px 0 60px 0;
 }
-
 article div#contato div#listaContatos ul li {
     list-style: none;
     color: rgb(167, 167, 167);
     margin-top: 10px;
 }
-
 article div#contato div#listaContatos ul div#ulTitle {
     display: flex;
     max-height: 30px;
     align-items: center;
     margin-bottom: 20px;
 }
-
 article div#contato div#listaContatos ul div#ulTitle img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
-
 article div#contato div#listaContatos ul div#midias img {
     width: 30px;
     height: 30px;
@@ -267,11 +227,9 @@ article div#contato div#listaContatos ul div#midias img {
 
 
 /* FOOTER */
-
 footer {
     padding: 60px 0;
 }
-
 footer div#copy {
     text-align: center;
     color: rgb(97, 97, 97);
@@ -279,12 +237,10 @@ footer div#copy {
     display: grid;
     grid-template-columns: 55% 45%;
 }
-
 footer div#copy span {
     align-self: center;
     text-align: end;
 }
-
 footer div#footerLogo img {
     max-width: 150px;
     border-radius: 50%;
