@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     /* GLOBAL */
     .button {
         padding: 10px 30px;
@@ -39,6 +39,7 @@
     article div#mecanica div#servicos ul {
         margin: 10px 20px;
         padding: 0;
+        align-items: center;
     }
     /* FUNILARIA */
     article div#funilaria div#contFunilaria {
